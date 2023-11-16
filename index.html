@@ -1,0 +1,98 @@
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<meta charset="utf-8">
+
+
+<?php
+
+echo '<h2>FORMULARIO DEPORTES</h2>';
+echo '<body bgcolor="#5E8CA4" text="pink" leftmargin="50px" topmargin="70px" rigthmargin="50px">';
+echo'<div align="justify">';
+echo' Un formulario en php o cualquier otro lenguaje sirve para enviar datos (ingresados por un usuario) a un servidor con el fin procesarlos y/o guardarlos en una base de datos. Un formulario puede incluir distintos campos, tales como los numéricos, fechas, textos, contraseñas, etc. Usualmente son utilizados para registrarse en un sitio web, iniciar sesión o cargar cualquier tipo de datos.Los formularios son una herramienta esencial para interactuar con los usuarios en una aplicación web. Los formularios en PHP son un conjunto de elementos HTML que permiten a los usuarios enviar datos al servidor para su procesamiento.El HTML de un formulario web está compuesto por uno o más controles de formulario (a veces llamados widgets), además de algunos elementos adicionales que ayudan a estructurar el formulario general; a menudo se los conoce como formularios HTML. Los controles pueden ser campos de texto de una o varias líneas, cajas desplegables, botones, casillas de verificación o botones de opción, y se crean principalmente con el elemento input, aunque hay algunos otros elementos que también hay que conocer.';
+
+
+echo'<hr>
+<form action="" method="">
+<table>
+<tr>
+<td>clave:</td>
+<td><input type="text" name="clave"></td>
+</tr>
+<tr>
+<td>Descripcion: </td>
+<td><input type="text" name="Descripcion"></td>
+</tr>
+<tr>
+<td>Edad: </td>
+<td><input type="text" name="precio"></td>
+</tr>
+
+
+<tr>
+<td><label>Marca:</td>
+    <td><select name="Marca" placeholder="Marca">
+    <i class="fa-solid fa-star"></i>
+   
+         <option value="Nike">Nike</option>
+         <option value="Adidas">Adidas</option>
+         <hr />
+         <option value="Hunder Armour">Hunder Armour</option>
+         <option value="Puma">Puma</option>
+         <hr />
+         <option value="Patito">Patito</option>
+     </select></td>
+    </label>
+</tr>
+
+<tr>
+<td>Precio:</td>
+<td><input type="text" name="Precio"></td>
+<tr>
+</tr>
+
+<tr>
+<td>
+Talla:
+</td>
+
+<td>
+<input type="radio" name="sch">S/CH <input type="radio" name="ggd">G/GD
+   <p><input type="radio" name="mme">M/MED <input type="radio" name="exgd">EX/EXTRA GD</p>
+
+</td>
+</tr>
+
+  <td>Descuento:</td>
+
+<td><input type="checkbox" value="porcientotres" id="porcientotres"><label for="porcientotres"> 3% </label> <input type="checkbox" value="porcientoquince" id="porcientoquince"><label for="porcientoquince"> 15% </label><input type="checkbox" value="porcientoveinte" id="porcientoveinte">
+<label for="porcientoveinte"> 20% </label>
+
+
+
+
+
+
+
+
+<p><input type="checkbox" value="porcientotreinta" id="porcientotreinta">
+<label for="porcientotreinta"> 30% </label><input type="checkbox" value="porcientocincuenta" id="porcientocincuenta">
+<label for="porcientocincuenta"> 50% </label><input type="checkbox" value="porcientosetenta" id="porcientosetenta">
+<label for="porcientosetenta"> 70% </label></td></p></td>
+
+
+
+
+
+
+<tr>
+<td aling="center"><input type="submit" value="Guardar..."></td>
+<td aling="center"><input type="reset" value="Eliminar..."></td>
+</tr>
+
+
+
+</select>
+</table>
+</form>
+
+<hr>';
+?>
